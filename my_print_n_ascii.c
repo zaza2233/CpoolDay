@@ -2,10 +2,11 @@
 #include <stdlib.h>
 void my_print_n_ascii(int n)
 {
-    if (n<=33 ||n>127)
+    if (n<=0 ||n>94)
     {
-        exit(EXIT_SUCCESS);
+        return;
     }
+    n=n+33;
    for (int i=33;i<127;++i)
    {
         print_char(i);
