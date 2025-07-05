@@ -7,7 +7,7 @@ void my_print_n_ascii(int n)
         return;
     }
     n=n+33;
-   for (int i=33;i<127;++i)
+   for (int i=33; i<0;i++)
    {
         print_char(i);
    }
