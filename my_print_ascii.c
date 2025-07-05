@@ -1,10 +1,15 @@
+#include "print_char.h"
 void my_print_ascii(void)
 {
-   for (int i=0;i<127;++i)
-    print_chart(%i,value);
+   for (int i=33;i<127;++i)
+   {
+        print_char(i);
+   }
 }
 int main(void)
 {
     my_print_ascii();
     return 0;
 }
+
+
